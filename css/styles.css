@@ -1126,7 +1126,7 @@ h2 {
 	}
 	.toon-modal .modal-dialog{
 		padding: 200px 0 0;
-		width: 728px;
+		max-width: 728px;
 	}
 	.toon-modal .modal-content {
 		border: 3px solid #2c76ad;
@@ -1143,7 +1143,7 @@ h2 {
 		color: #3c87be;
 	}
 	.toon-modal h4 {
-		font-size: 27px;
+		font-size: 20px;
 		font-weight: 600;
 	}
 	.toon-modal .modal-body {
@@ -1153,9 +1153,9 @@ h2 {
 	}
 	.toon-modal .logo-toon{
 		display: inline-block;
-		background: url(../images/logo-modal.png) no-repeat;
-		width: 448px;
-		height: 63px;
+		background: url(../images/logo-modal-sm.png) no-repeat;
+		width: 290px;
+		height: 41px;
 		text-indent: -9999px;
 		overflow: hidden;
 	}
@@ -1165,6 +1165,7 @@ h2 {
 	}
 	.toon-modal p {
 		margin: 0 0 26px;
+		padding: 0 15px;
 	}
 	.toon-modal button {
 		margin: 0 0 101px;
