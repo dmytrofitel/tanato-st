@@ -5,7 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Tanatos Studio</title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"> 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/slick.css">
 	<link rel="stylesheet" href="css/slick-theme.css">
@@ -13,6 +14,7 @@
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script><![endif]-->
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/placeholders.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/scripts.js"></script>
 </head>
@@ -28,7 +30,7 @@
 						<li><a href="#">Services</a></li>
 						<li><a href="#">Our Works</a></li>
 						<li><a href="#">Contact</a></li>
-						<div class="divider"></div>
+						<li class="divider"></li>
 						<li>
 							<ul class="social">
 								<li><a class="ico ico-fb" href="#"></a></li>
@@ -53,8 +55,8 @@
 								<h1>We Design <span>Things</span></h1>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 								<div class="buttons">
-									<button type = "button" class = "btn btn-lg" data-toggle="modal" data-target="#myModal">Hire Us</button>
-									<button type = "button" class = "btn btn-lg" data-toggle="modal" data-target="#myModal-02">Our Works</button>
+									<a href="#" class = "btn btn-lg" data-toggle="modal" data-target="#myModal">Hire Us</a>
+									<a href="#" class = "btn btn-lg" data-toggle="modal" data-target="#myModal-02">Our Works</a>
 								</div>
 							</div>
 						</div>
@@ -66,7 +68,7 @@
 					<a class="scroll-to" href="#main"><img src="images/img-arrow.png" alt="image description"></a>
 				</div>
 			</div>
-		</div><!--/Slider -->
+		</div><!--/slider -->
 		<div id="main">
 			<article class="services">
 				<div class="container">
@@ -99,11 +101,11 @@
 					<div class="container">
 						<div class="newsletter-form">
 							<form>
-								<div class="clearfix">
+								<div class="clearfix holder">
+									<input type="submit" class="btn btn-warning sub-btn" value="Subscribe" />
 									<div class="input-holder">
 										<input class="form-control" type="email" placeholder="Enter Your email adress for newsletter">
 									</div>
-									<input type="submit" class="btn btn-warning sub-btn" value="Subscribe" />
 								</div>
 							</form>
 						</div>
@@ -116,91 +118,79 @@
 					<p class="main-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco <br>laboris nisi ut aliquip ex ea commodo consequat</p>
 					<div class="row ">
 						<div class="item-box col-lg-4 col-md-4 col-sm-6">
-							<a href="#">
 								<figure class="bg-img">
-									<img src="images/img-portfolio-01.jpg"/></a>
+									<img src="images/img-portfolio-01.jpg"/>
 									<figcaption>
 										<div class="over text-center hidden-xs">
 											<h4>Abazoo Website</h4>
 											<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-											<button class="btn btn-default">show projects</button>
+											<a class= "btn btn-dafault" href="#">show project</a>
 										</div>
 									</figcaption>
 								</figure>
-							</a>
 						</div>
 						<div class="item-box col-lg-4 col-md-4 col-sm-6">
-							<a href="#">
 								<figure class="bg-img">
-									<img src="images/img-portfolio-02.jpg"/></a>
+									<img src="images/img-portfolio-02.jpg"/>
 									<figcaption>
 										<div class="over text-center hidden-xs">
 											<h4>Abazoo Website</h4>
 											<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-											<button class="btn btn-default">show projects</button>
+											<a class="btn btn-default" href="#">show project</a>
 										</div>
 									</figcaption>
 								</figure>
-							</a>
 						</div>
 						<div class="item-box col-lg-4 col-md-4 col-sm-6">
-							<a href="#">
 								<figure class="bg-img">
-									<img src="images/img-portfolio-03.jpg"/></a>
+									<img src="images/img-portfolio-03.jpg"/>
 									<figcaption>
 										<div class="over text-center hidden-xs">
 											<h4>Abazoo Website</h4>
 											<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-											<button class="btn btn-default">show projects</button>
+											<a class="btn btn-default" href="#">show project</a>
 										</div>
 									</figcaption>
 								</figure>
-							</a>
 						</div>
 						<div class="item-box col-lg-4 col-md-4 col-sm-6">
-							<a href="#">
 								<figure class="bg-img">
-									<img src="images/img-portfolio-04.jpg"/></a>
+									<img src="images/img-portfolio-04.jpg"/>
 									<figcaption>
 										<div class="over text-center hidden-xs">
 											<h4>Abazoo Website</h4>
 											<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-											<button class="btn btn-default">show projects</button>
+											<a class="btn btn-default" href="#">show project</a>
 										</div>
 									</figcaption>
 								</figure>
-							</a>
 						</div>
 						<div class="item-box col-lg-4 col-md-4 col-sm-6">
-							<a href="#">
 								<figure class="bg-img">
-									<img src="images/img-portfolio-05.jpg"/></a>
+									<img src="images/img-portfolio-05.jpg"/>
 									<figcaption>
 										<div class="over text-center hidden-xs">
 											<h4>Abazoo Website</h4>
 											<p>Quis nos  trud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-											<button class="btn btn-default">show projects</button>
+											<a class="btn btn-default" href="#">show project</a>
 										</div>
 									</figcaption>
 								</figure>
-							</a>
 						</div>
 						<div class="item-box col-lg-4 col-md-4 col-sm-6">
-							<a href="#">
 								<figure class="bg-img">
-									<img src="images/img-portfolio-06.jpg"/></a>
+									<img src="images/img-portfolio-06.jpg"/>
 									<figcaption>
 										<div class="over text-center hidden-xs">
 											<h4>Abazoo Website</h4>
 											<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-											<button class="btn btn-default">show project</button>
+											<a class="btn btn-default" href="#">show project</a>
 										</div>
 									</figcaption>
 								</figure>
-							</a>
 						</div>
 					</div>
-					<button class="show btn btn-default text-center">SHOW MORE</button>
+					<a href="#" class="show btn btn-default text-center">SHOW MORE</a>
 				</div>
 			</div><!--/portfolio-->
 			<div class="testimonials bg-img">
@@ -235,7 +225,7 @@
 					<div class="team-slider">
 						<div class="member-holder">
 							<figure>
-								<figure-img bg-img" href="#"><img class="figure-img bg-img" src="images/img-member-01.jpg"/></a>
+								<a class= "figure-img bg-img" href="#"><img src="images/img-member-01.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Catherina Gail</h3>
 									<ul class="social-icons">
@@ -251,7 +241,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-02.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-02.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Harvey Rube</h3>
 									<ul class="social-icons">
@@ -267,7 +257,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-03.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-03.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Janet Pris</h3>
 									<ul class="social-icons">
@@ -283,7 +273,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-04.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-04.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Kevin Ward</h3>
 									<ul class="social-icons">
@@ -299,7 +289,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-01.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-01.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Catherina Gail</h3>
 									<ul class="social-icons">
@@ -315,7 +305,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-02.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-02.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Harvey Rube</h3>
 									<ul class="social-icons">
@@ -331,7 +321,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-03.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-03.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Janet Pris</h3>
 									<ul class="social-icons">
@@ -347,7 +337,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-04.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-04.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Kevin Ward</h3>
 									<ul class="social-icons">
@@ -363,7 +353,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-01.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-01.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Catherina Gail</h3>
 									<ul class="social-icons">
@@ -379,7 +369,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-02.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-02.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Harvey Rube</h3>
 									<ul class="social-icons">
@@ -395,7 +385,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-03.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-03.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Janet Pris</h3>
 									<ul class="social-icons">
@@ -411,7 +401,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-04.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-04.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Kevin Ward</h3>
 									<ul class="social-icons">
@@ -427,7 +417,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-01.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-01.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Catherina Gail</h3>
 									<ul class="social-icons">
@@ -443,7 +433,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-02.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-02.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Harvey Rube</h3>
 									<ul class="social-icons">
@@ -459,7 +449,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-03.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-03.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Janet Pris</h3>
 									<ul class="social-icons">
@@ -475,7 +465,7 @@
 						</div>
 						<div class="member-holder">
 							<figure>
-								<a class="figure-img bg-img" href="#"><img src="images/img-member-04.jpg"/></a>
+								<a class="figure-img bg-img" href="#"><img src="images/img-member-04.jpg" alt="image description"/></a>
 								<figcaption>
 									<h3 class="text-uppercase">Kevin Ward</h3>
 									<ul class="social-icons">
@@ -529,10 +519,11 @@
 			<div class="container">
 				<div class="copyright">
 					<p>&#169; 2015 Copyright Design Studio</p>
+					<a href="#" data-toggle="modal" data-target="#myModal-03">Download template</a>
 				</div>
 				<div class="design-by">
 					<p>Designed by</p>
-					<a href="#"><span class="footer-logo"></span></a>
+					<strong class="footer-logo"><a href="https://symu.co/" target="_blank">Symu.com</a></strong>
 				</div>
 			</div>
 		</footer><!-- /footer -->
@@ -566,13 +557,47 @@
 					<h4>Visit Our Sister Website</h4>
 				</div>
 				<div class="modal-body">
-					<strong class="logo-toon"><a href="#">Toon Characters</a></strong>
-					<p>Toon Characters.com / Stock Cartoon Characters</p>
-					<button type = "button" class = "btn btn-lg" >www.ToonCharacters.com</button>
+					<div class="cell">
+						<strong class="logo-toon"><a href="#">Toon Characters</a></strong>
+						<p>Toon Characters.com / Stock Cartoon Characters</p>
+						<a href="#" class = "btn btn-lg" >www.ToonCharacters.com</a>
+					</div>
 				</div>
 				
 			</div>
 		</div>
 	</div>	<!-- Modal "Toon Characters" -->
+	<div class="modal symu-modal fade" id="myModal-03" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<img src="images/logo-symu.png" alt="image description">
+				</div>
+				<div class="modal-body">
+					<div class="cell">
+						<h5>Thanks for downloading our template!</h5>
+						<span>Hope that you enjoy it well! Check also our site</span>
+						<a href="#" class="btn btn-lg">www.symu.co</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- Modal "Symu" -->
+	<div class="modal fade modal-download" id="myModa1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="symu">
+						<div class="container">
+							<div class="download">
+								<div class="circle"><img src="images/logo-symu.png" alt="image description"></div>
+								<h5>Thanks for downloading our template!</h5>
+								<span>Hope that you enjoy it well! Check also our site</span>
+								<button class="btn btn-lg btn-danger">www.symu.co</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 </body>
 </html>
